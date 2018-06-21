@@ -1,0 +1,408 @@
+body{
+	background: #d6ae7b;
+	font-family: 'Lobster', cursive;
+	font-size: 20px
+}
+
+p{
+	opacity: 0;
+}
+
+.K1,.K2,.K3,.K4,.K5{
+	opacity: 0;
+}
+
+
+	/*Start Loading Screen*/
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+.preloader .loading {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font: 14px arial;
+}
+
+	/*End of Loading Screen*/
+
+
+
+	/*Start of Navigation*/
+
+.row.navigasi {
+    position: static;
+    z-index: 1;
+    top: 0;
+/*    display: none;*/
+ /*   transition: 1s;*/
+}
+
+.container-fluid.bagian-2 {
+    border-top: 3px solid rgb(254, 231, 0);
+}
+
+.nav-link1,.nav-link2,.nav-link3{
+	font-size: 25px;
+}
+
+.nav-link1:hover,.nav-link2:hover,.nav-link3:hover{
+	background: white;
+	color: rgb(3, 244, 241)!important;
+	border-radius: 10px;
+	transition: 1s;
+	text-decoration: line-through;
+	transform: scale(1.1);
+}
+
+a.nav-link1,a.nav-link2,a.nav-link3{
+	transition: 1s;
+}
+
+li.nav-item:hover{
+	transform: scale(1.1);
+}
+
+li.nav-item {
+    transition: 1s;
+}
+
+.nav-link1.Visited,.nav-link2.Visited,.nav-link3.Visited{
+	background: white;
+	color: rgb(3, 244, 241)!important;
+	border-radius: 10px;
+	transition: 1s;
+	text-decoration: line-through;
+}
+
+.navbar-light .navbar-nav .nav-link1,.navbar-light .navbar-nav .nav-link2,.navbar-light .navbar-nav .nav-link3 {
+    color: rgba(0,0,0,.5);
+    padding: 5px 30px;
+    border-radius: 50%;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.m-auto {
+    border-radius: 25%;
+}
+
+.scrollActive.row.navigasi {
+	position: fixed;
+	transition: 1s;
+	z-index: 2;
+}
+
+	/*End of Navigation*/
+
+	/*Start of Bagian 2*/
+
+span.K6,span.K7 {
+    color: black;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.perkenalan{
+	color: white;
+}
+
+.col-md-8.perkenalan {
+    padding: 20px 0px;
+    display: inline-table;
+}
+
+.col-md-12.perkenalan-atas{
+    background: #8105051f;
+    margin: 16px;
+    display: none;
+}
+
+.col-md-12.perkenalan-bawah>h3,p{
+	color: black;
+}
+
+.images {
+    border: solid 3px rgba(155, 227, 212, 0.5);
+    width: 160px;
+    display: inline-block;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.images:hover{
+	transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 5px 20px 2px #9c9fa1;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    width: 130px;
+    border-top: 2px solid rgba(3, 169, 244, 0.2);
+}
+
+
+.container.bagian-2 {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+}
+
+i.fab.fa-linkedin-in,i.fab.fa-facebook-f,i.fab.fa-twitter {
+    padding: 5px 15px;
+    background: linear-gradient(#ff572269,#795548);
+    border-radius: 20%;
+    transition: 1s;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.social-media>a{
+	color: white;
+}
+
+i.fab.fa-facebook-f:hover{
+	color: #4267b2;
+	transition: 0.5s;
+	padding: 5px 15px;
+	/*height: 25px;*/
+	background: #f2f5f7;
+	border-radius: 6px;
+}
+
+i.fab.fa-twitter:hover{
+	color: #58CEF2;
+	transition: 0.5s;
+	padding: 5px 15px;
+	/*height: 25px;*/
+	background: #f2f5f7;
+	border-radius: 6px;
+}
+
+i.fab.fa-linkedin-in:hover{
+	color: black;
+	transition: 0.5s;
+	padding: 5px 15px;
+	/*height: 25px;*/
+	background: #f2f5f7;
+	border-radius: 6px;
+}
+
+
+
+
+	
+	/*End of Bagian 2*/
+
+	/*Start of Bagian 3*/
+
+
+
+.col-md-4.text-center.bagian-3 {
+    background: linear-gradient(#3a1c71 , #d76d77 , #ffaf7b);
+    color: rgb(191,232,249);
+    border-left: 3px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    display: none;
+}
+
+.kotak{
+    display: inline-block;
+    background: rgba(182, 239, 255, 0.59);
+    padding: 5px 0;
+    border-radius: 30px;
+    margin: 5px 5px;
+    width: 150px;
+    transition: 1s;
+}
+
+.kotak:hover{
+	transform: scale(1.1);
+    transition: 1s;
+    background: rgba(236, 156, 16, 0.75);
+   
+}
+
+
+
+
+
+	/*End of Bagian 3*/
+
+	/*Start of bagian 4*/
+
+.progress.form-group {
+    width: 80%;
+    color: white;
+    height: 14px;
+}
+
+h4.skillability.text-center {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 27%;
+    background: white;
+}
+
+h4.skillability.text-center:hover{
+	border: 2px solid #db2121;
+	transition: 0.5s;
+}
+
+.col-md-4.text-center.card1{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	visibility: hidden;
+	padding-top: 45px;
+}
+
+.card1modified{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	visibility: visible;
+	padding-top: 45px;
+}
+
+h4.languageskill.text-center {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 27%;
+    background: white;
+}
+
+h4.languageskill.text-center:hover{
+	border: 2px solid #db2121;
+	transition: 0.5s;
+}
+
+.col-md-4.text-center.card3{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	visibility: hidden;
+	padding-top: 45px;
+}
+
+.card3modified{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	visibility: visible;
+	padding-top: 45px;
+}
+
+h4.hobbies.text-center {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid black;
+    font-family: 'Indie Flower', cursive;
+    position: absolute;
+    z-index: 1;
+    top: 15px;
+    left: 30%;
+    background: white;
+}
+
+h4.hobbies.text-center:hover{
+	border: 2px solid #db2121;
+	transition: 0.5s;
+}
+
+.col-md-4.text-center.card2{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	opacity: 0;
+	padding-top: 45px;
+}
+
+i.fas.fa-gamepad {
+    background: #528548;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+i.fas.fa-code{
+	background: #2ac1e1;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+i.fas.fa-book{
+	background: #f6d709;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 22%;
+}
+
+.card2modified{
+	font-family: 'Shrikhand', cursive;	
+	position: relative;
+	opacity: 1;
+	padding-top: 45px;
+}
+
+div#scroll2 {
+    background: #4d4d4d;
+}
+	/*End of bagian 4*/
+
+
+	/*Start of bagian 5*/
+.row.bagian-5 {
+    
+    visibility: visible;
+}	
+
+/*.row.bagian-5-modified{
+	border-bottom: 2px solid;
+    border-top: 2px solid;
+    visibility: visibility;
+}*/
+
+.row.bagian-4-judul{
+    background: rgb(190, 190, 190);
+    border-bottom: 2px solid;
+    box-shadow: -1px 6px 9px 3px #868787;
+    border-top: 2px solid;
+}
+
+img.img-teropong {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.col-md-6.portfolio-bag-kanan {
+    background: #ffffff36;
+    color: white;
+}
+	/*end of bagian 5*/
+
+.container-fluid.footer.mt-3 {
+    background: #07040491;
+    padding: 20px 0;
+    transition: 3s;
+}
+
+.social-media.text-center {
+    border-bottom: 2px dashed white;
+}
